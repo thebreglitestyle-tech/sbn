@@ -154,7 +154,51 @@ select.var-sel{width:100%;padding:9px 13px;border:2px solid var(--xg);border-rad
 .kenapa-card .ico{font-size:38px;margin-bottom:12px;}
 .kenapa-card h4{color:#fff;font-weight:800;font-size:15px;margin-bottom:8px;}
 .kenapa-card p{color:rgba(255,255,255,.7);font-size:13px;line-height:1.7;}
-
+/* ── BLOG ── */
+#blog{padding:56px 16px;}
+.blog-bg{
+  background:rgba(255,255,255,.93);
+  backdrop-filter:blur(12px);
+  border-radius:32px;
+  padding:48px 32px;
+  max-width:1000px;
+  margin:0 auto;
+}
+.blog-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:20px;
+  margin-top:24px;
+}
+.blog-card{
+  border:1px solid #e5ede8;
+  border-radius:18px;
+  padding:20px;
+  background:#fff;
+  transition:transform .2s;
+}
+.blog-card:hover{
+  transform:translateY(-4px);
+}
+.blog-card h3{
+  font-size:16px;
+  font-weight:800;
+  color:var(--dg);
+  margin-bottom:8px;
+}
+.blog-card p{
+  font-size:13px;
+  color:#5c6f63;
+  line-height:1.6;
+}
+.blog-card a{
+  display:inline-block;
+  margin-top:10px;
+  font-weight:700;
+  color:var(--lg);
+  text-decoration:none;
+}
+  
 /* ── FAQ ── */
 #faq{padding:56px 16px;}
 .faq-bg{background:rgba(255,255,255,.93);backdrop-filter:blur(12px);border-radius:32px;padding:48px 32px;max-width:860px;margin:0 auto;}
@@ -667,7 +711,29 @@ svg.wa-ico path{fill:currentColor;}
   </div>
 </div>
 </section>
+<section id="blog">
+  <div class="blog-bg">
+    
+    <h2 style="text-align:center;">📚 Panduan Memilih Snack Box</h2>
+    <p style="text-align:center;">Biar acara kamu makin lancar & gak salah pilih</p>
 
+    <div class="blog-grid">
+
+      <div class="blog-card">
+        <h3>Harga Snack Box Bogor 2026 + Tips Hemat Acara</h3>
+        <p>Panduan lengkap harga snack box di Bogor mulai dari 8 ribuan sampai paket lengkap...</p>
+        <a href="/sbn/blog/harga-snack-box-bogor.html">Baca Selengkapnya →</a>
+      </div>
+
+    </div>
+
+    <div style="text-align:center; margin-top:20px;">
+      <a href="/sbn/blog/">Lihat Semua Artikel</a>
+    </div>
+
+  </div>
+</section>
+  
 <!-- ═══ FAQ ═══ -->
 <section id="faq" class="section">
 <div class="faq-bg fade-up">
